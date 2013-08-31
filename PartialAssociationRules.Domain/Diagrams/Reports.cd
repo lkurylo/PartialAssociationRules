@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PartialAssociationRules.Domain.Report.TxtReport" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAQASAAAAAAA=</HashCode>
+      <FileName>Report\TxtReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.Report.RsesRulReport" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Report\RsesRulReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.Report.ReportInfo" Collapsed="true">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAQEIABAAiICAEAIAQAQIAAABgCgUAACAABAAg=</HashCode>
+      <FileName>Report\ReportInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PartialAssociationRules.Domain.Report.IReport">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Report\IReport.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="ReportDetails" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="PartialAssociationRules.Domain.Report.ReportType">
+    <Position X="8.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

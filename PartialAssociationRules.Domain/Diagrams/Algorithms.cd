@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PartialAssociationRules.Domain.Algorithms.ClassicMultiThreading" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAIAAAAAAAAAAAAEAAAARAAUAAAEAAAAA=</HashCode>
+      <FileName>Algorithms\ClassicMultiThreading.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.Algorithms.ClassicWithModificationMultiThreading" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAIAAAAAAAAAAAAEAAAARAAUAAAEAAAAA=</HashCode>
+      <FileName>Algorithms\ClassicWithModificationMultiThreading.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.Algorithms.ClassicWithWeightsMultiThreading" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAIAAAAAAAAAAAAEAAAARAAUAAAEAAAAA=</HashCode>
+      <FileName>Algorithms\ClassicWithWeightsMultiThreading.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="PartialAssociationRules.Domain.Algorithms.IAlgorithm">
+    <Position X="1.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAUAAAEAAAAA=</HashCode>
+      <FileName>Algorithms\IAlgorithm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="PartialAssociationRules.Domain.Algorithms.AlgorithmType">
+    <Position X="3.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Algorithms\AlgorithmType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

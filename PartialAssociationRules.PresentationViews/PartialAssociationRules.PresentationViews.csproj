@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC94F522-3EF3-4B42-B7CE-E22C0CD97C76}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PartialAssociationRules.PresentationViews</RootNamespace>
+    <AssemblyName>PartialAssociationRules.PresentationViews</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\lkurylo\Desktop\magisterka program\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PartialAssociationRules.PresentationViews.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>47AD4645867005F48A1C72709A5F7497B47A0208</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PartialAssociationRules.PresentationViews_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'WEB|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\WEB\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WEB</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'WIN|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\WIN\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WIN</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="UserControls\DefaultAlgorithmsGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DefaultAlgorithmsGroup.Designer.cs">
+      <DependentUpon>DefaultAlgorithmsGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DefaultGeneratorsGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DefaultGeneratorsGroup.Designer.cs">
+      <DependentUpon>DefaultGeneratorsGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DefaultParametersGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DefaultParametersGroup.Designer.cs">
+      <DependentUpon>DefaultParametersGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DefaultParsersGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DefaultParsersGroup.Designer.cs">
+      <DependentUpon>DefaultParsersGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DefaultReportsGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DefaultReportsGroup.Designer.cs">
+      <DependentUpon>DefaultReportsGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PreviewGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PreviewGroup.Designer.cs">
+      <DependentUpon>PreviewGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ResultGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ResultGrid.Designer.cs">
+      <DependentUpon>ResultGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\AlgorithmsListGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AlgorithmsListGroup.Designer.cs">
+      <DependentUpon>AlgorithmsListGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DataSourceGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DataSourceGroup.Designer.cs">
+      <DependentUpon>DataSourceGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ParametersGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ParametersGroup.Designer.cs">
+      <DependentUpon>ParametersGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SelectGeneratorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SelectGeneratorPanel.Designer.cs">
+      <DependentUpon>SelectGeneratorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SummaryGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SummaryGroup.Designer.cs">
+      <DependentUpon>SummaryGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AboutView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\AboutView.Designer.cs">
+      <DependentUpon>AboutView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MessageBoxView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MessageBoxView.Designer.cs">
+      <DependentUpon>MessageBoxView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PreviewDataView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PreviewDataView.Designer.cs">
+      <DependentUpon>PreviewDataView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainFormView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainFormView.Designer.cs">
+      <DependentUpon>MainFormView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SelectGeneratorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SelectGeneratorView.Designer.cs">
+      <DependentUpon>SelectGeneratorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SettingsView.Designer.cs">
+      <DependentUpon>SettingsView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\DefaultAlgorithmsGroup.resx">
+      <DependentUpon>DefaultAlgorithmsGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DefaultGeneratorsGroup.resx">
+      <DependentUpon>DefaultGeneratorsGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DefaultParametersGroup.resx">
+      <DependentUpon>DefaultParametersGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DefaultParsersGroup.resx">
+      <DependentUpon>DefaultParsersGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DefaultReportsGroup.resx">
+      <DependentUpon>DefaultReportsGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PreviewGroup.resx">
+      <DependentUpon>PreviewGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ResultGrid.resx">
+      <DependentUpon>ResultGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\AlgorithmsListGroup.resx">
+      <DependentUpon>AlgorithmsListGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DataSourceGroup.resx">
+      <DependentUpon>DataSourceGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ParametersGroup.resx">
+      <DependentUpon>ParametersGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SelectGeneratorPanel.resx">
+      <DependentUpon>SelectGeneratorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SummaryGroup.resx">
+      <DependentUpon>SummaryGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AboutView.resx">
+      <DependentUpon>AboutView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MessageBoxView.resx">
+      <DependentUpon>MessageBoxView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PreviewDataView.resx">
+      <DependentUpon>PreviewDataView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainFormView.resx">
+      <DependentUpon>MainFormView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SelectGeneratorView.resx">
+      <DependentUpon>SelectGeneratorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SettingsView.resx">
+      <DependentUpon>SettingsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Diagrams\MVP - about view.cd" />
+    <None Include="Diagrams\MVP - preview form.cd" />
+    <None Include="Diagrams\MVP - select generator form.cd" />
+    <None Include="Diagrams\MVP - settings form.cd" />
+    <None Include="Diagrams\MVP - main form.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\configuration.ico" />
+    <Content Include="Images\configuration.png" />
+    <Content Include="Images\home.ico" />
+    <Content Include="Images\home.png" />
+    <Content Include="Images\import.ico" />
+    <Content Include="Images\import.png" />
+    <Content Include="Images\info.ico" />
+    <Content Include="Images\info.png" />
+    <Content Include="Images\notice_board.png" />
+    <Content Include="Images\open-mini.png" />
+    <Content Include="Images\open.png" />
+    <Content Include="Images\paw-icon.png" />
+    <Content Include="Images\save.png" />
+    <Content Include="Images\search.ico" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\settings.png" />
+    <Content Include="Images\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PartialAssociationRules.PresentationLogic\PartialAssociationRules.PresentationLogic.csproj">
+      <Project>{90962ABC-AB01-4844-BE3C-434A2C7C47AB}</Project>
+      <Name>PartialAssociationRules.PresentationLogic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

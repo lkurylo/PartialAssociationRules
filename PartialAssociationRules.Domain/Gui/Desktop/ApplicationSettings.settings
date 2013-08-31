@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PartialAssociationRules.Domain" GeneratedClassName="ApplicationSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ObjectsQuantity" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="AttributesQuantity" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="Alpha" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.20</Value>
+    </Setting>
+    <Setting Name="Gamma" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0.20</Value>
+    </Setting>
+    <Setting Name="Support" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="Confidence" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="DefaultAlgorithm" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="TrimDataSet" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultGenerator" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="DefaultFilesCatalog" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DataSets</Value>
+    </Setting>
+    <Setting Name="MinimalWeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MaximalWeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="DefaultReport" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="InsertInfSysInReport" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DefaultRegexIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RegexForNamesHeader" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(^[\t ]+\d+\.\s+)(?&lt;data&gt;[^\s:]+);;;(^[\t ]+\s+)(?&lt;data&gt;[^\s:]+)</Value>
+    </Setting>
+    <Setting Name="PercentageOfSeparatedRows" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

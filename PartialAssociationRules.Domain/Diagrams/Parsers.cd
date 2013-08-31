@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PartialAssociationRules.Domain.DataFileParsers.ArffFileParser" Collapsed="true">
+    <Position X="3" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataFileParsers\ArffFileParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.DataFileParsers.DataFileParser" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataFileParsers\DataFileParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.DataFileParsers.CsvFileParser" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataFileParsers\CsvFileParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.DataFileParsers.DataAndNamesFileParser" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataFileParsers\DataAndNamesFileParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="PartialAssociationRules.Domain.DataFileParsers.IDataFileParser">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataFileParsers\IDataFileParser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="PartialAssociationRules.Domain.DataFileParsers.FileType">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAEiA=</HashCode>
+      <FileName>DataFileParsers\FileType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PartialAssociationRules.Domain.DataGenerators.BasicGenerator" Collapsed="true">
+    <Position X="4" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAgAAAAAAAAAAAAAAAAAAABAQAAAEAAAAA=</HashCode>
+      <FileName>DataGenerators\BasicGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.DataGenerators.BinaryGenerator" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataGenerators\BinaryGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.DataGenerators.NumericGenerator" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>DataGenerators\NumericGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PartialAssociationRules.Domain.DataGenerators.WeightsGenerator" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAACAgAAAAAAAAAAAAQAAAAAAAAAQAAAEAAAAA=</HashCode>
+      <FileName>DataGenerators\WeightsGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="PartialAssociationRules.Domain.DataGenerators.IDataGenerator">
+    <Position X="4" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAABAQAAAEAAAAA=</HashCode>
+      <FileName>DataGenerators\IDataGenerator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="PartialAssociationRules.Domain.DataGenerators.IWeightsGenerator">
+    <Position X="9.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAgAAAAAAAAAAAAQAAAAAAAAAQAAAEAAAAA=</HashCode>
+      <FileName>DataGenerators\IWeightGenerator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="PartialAssociationRules.Domain.DataGenerators.GeneratorType">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DataGenerators\GeneratorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
